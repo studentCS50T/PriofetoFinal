@@ -1,0 +1,56 @@
+/* 
+    Document   : menu
+    Created on : 08/08/2019, 11:05:00
+    Author     : Administrador
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+.menu ul li{
+   margin: 0;
+   list-style: none;
+   float: left;
+   display: block;
+   border-right: none;
+   background-color: #FFF;
+}
+
+.menu ul li a{
+    float: left;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #0974bb;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 8px 2px;
+    border-radius: 0;
+    margin: 9px 15px 0 15px;
+}
+
+.menu ul li a:hover{
+    background-color: #ccc;
+}
+
+.menu ul{
+    width: 100%;
+    padding: 0;
+    float: left;
+    display: block;
+    border: none;
+    margin: -95px 0 0 211px;
+}
+
